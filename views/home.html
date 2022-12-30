@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+<form action="" method="post">
+    <input type="text" placeholder="Enter here" name="search" id="search">
+    <button>Search</button>
+</form>
+
+<h5>List product</h5>
+
+<a href="/create"> Tạo mới</a>
+<table border="1">
+    <tr style="width: 40px">
+        <td>STT</td>
+        <td>Tên</td>
+        <td>Giá</td>
+        <td>Miêu tả</td>
+        <td>Loại</td>
+        <td colspan="2"> Tùy chọn</td>
+    </tr>
+    <tbody>
+        {list}
+    </tbody>
+
+
+</table>
+</body>
+</html>
